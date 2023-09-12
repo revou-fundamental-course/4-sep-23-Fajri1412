@@ -10,25 +10,29 @@
     <header>
         <h1>Kalkulator Automatik</h1>
     </header>
-    <center><img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg" width="250" height="230"></center>
-    <center><h4>Rumus Luas Persegi = s x s</h4></center>
-    <center><h4>Rumus Keliling Persegi = 4 x s</h4></center>
-    <section class="LuasInputSection">
-        <label for="inputField">Sisi Persegi (s)</label>
+    <div class="Gambar-Persegi">
+        <img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg" class="img"> 
+    </div>
+    <div class="Rumus">
+        <h3>Rumus Luas Persegi = s x s</h3>
+        <h3>Rumus Keliling Persegi = 4 x s</h3>
+    </div>
+    <div class="InputSection">
+        <label for="inputSisi">Sisi Persegi (s)</label>
         <input type="number" id="Sisi" placeholder="Masukan Sisi">
-    </section>
-    <section class="ButtonHitungSection">
+    </div>
+    <div class="ButtonHitung">
         <button onclick="Hitung()">Hitung</button>
-    </section>   
-    <section>
+    </div>
+    <div class="ButtonReset">
         <button onclick="Reset()">Reset</button>
-    </section>
+    </div>
+    <div class="HasilSection">
         <label>Luas Persegi</label>
         <input type="number" id="Luas">
         <label>Keliling Persegi</label>
         <input type="number" id="Keliling">
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
-
-<!--FIRST PROJECT-->
