@@ -14,3 +14,4 @@ function Reset() {
     document.getElementById("Luas").value = Luas;
     document.getElementById("Keliling").value = Keliling;
 }
+

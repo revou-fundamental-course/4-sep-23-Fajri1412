@@ -83,13 +83,14 @@ Button {
     margin-right: 15px;
 }
 
+Button:active {
+    transform: translateY(2px)
+}
+
+
 Button:hover {
     background-color: #435334;
     color: #EBE76C;
-}
-
-Button:active {
-    transform: translateY(2px)
 }
 
 .HasilSection {
